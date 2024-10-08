@@ -1,0 +1,103 @@
+
+.conteiner {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    color: #101010;
+    font-size: 20px;
+    color: white;
+    padding: 0px 20px;
+    background-color: gray;
+}
+
+.conteiner nav ul a{
+    height: 100%;
+    display: block;
+    float: right;
+    padding: 0px 20px;
+    background-color: gray;
+    text-decoration: none;
+}
+
+.conteiner nav ul li{
+    font-size: 20px;
+    color: white;
+    list-style: none;
+}
+
+.right{
+    float: right;
+}
+
+.image{
+    float: right;
+    margin: 10px;
+}
+
+.image a img {
+    max-width: 300px;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.content{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.section{
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+}
+
+.section img{
+     justify-content: left;
+     max-width: 100px;
+}
+
+.icons-title{
+    text-align: center;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.icons a img {
+    max-width: 30px;
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+.icons-contact{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    margin: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.icons-contact a img {
+    max-width: 30px;
+    margin: 10px;
+    padding: 0px 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.icons-contact a img li {
+    list-style: none;
+    text-align: center;
+}
